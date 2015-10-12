@@ -1,0 +1,52 @@
+<div class="container" ng-controller="allDeviceController">
+
+<div class="row ">
+<div class="col-md-12">
+
+<table class="table table-bordered table-striped table-hover table-responsive">
+    <caption class="text-center alert alert-info"><h2>The table below shows the devices that have visited the site</h2></caption>
+
+    <thead>
+    <tr>
+        <td>
+         Object Id
+        </td>
+        <td>
+            Ip Address
+        </td>
+        <td>
+            Region
+        </td>
+        <td>
+            Location
+        </td>
+        <td>
+           Organisation
+
+        </td>
+        <td>
+            Country
+        </td>
+        <td>
+            Created
+        </td>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr ng-repeat="dev in devices ">
+        <td >{{dev._id}}</td>
+        <td>{{dev.ip }}</td>
+        <td>{{dev.region }}</td>
+        <td>{{dev.loc}}</td>
+        <td>{{dev.org }}</td>
+        <td>{{dev.country }}</td>
+        <td>{{dev.created }}</td>
+
+    </tr>
+    </tbody>
+
+</table>
+</div>
+    </div>
+</div>

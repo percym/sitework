@@ -1,0 +1,19 @@
+{
+  "name": "percym",
+  "version": "1.0.0",
+  "description": "percym webhome",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3",
+    "http": "0.0.0",
+    "jsonwebtoken": "^5.0.5",
+    "mongoose": "^4.1.8",
+    "morgan": "^1.6.1"
+  }
+}

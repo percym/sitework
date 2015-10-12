@@ -1,0 +1,17 @@
+angular.module('allDeviceService',[])
+
+.factory('Device',function($http){
+
+
+        var deviceFactory={};
+
+            deviceFactory.all= function(){
+
+                return $http.get('/api/getDevices');
+
+                }
+
+
+
+                                 return deviceFactory;
+})

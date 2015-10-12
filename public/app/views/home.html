@@ -1,0 +1,85 @@
+<!-- Page Content -->
+
+<a  name="services"></a>
+<div class="content-section-a">
+
+    <div class="container" ng-controller="DeviceCtrl">
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <!--       <hr class="section-heading-spacer">-->
+                <div class="clearfix"></div>
+                <p><h2 class="section-heading" >About Your Location<br></h2></p>
+                <form class="form-sigin "method="post" ng-submit="">
+                    IP Address <input class="form-control" type="text" name="ip" ng-model="ip" value="{{ip}}"  disabled="{{isDisabled}}" >
+                    Region <input class="form-control" type="text" name="region" ng-model="region" value="{{region}}"  disabled="{{isDisabled}}" >
+                    Provider <input class="form-control" type="text" name="org" ng-model="org" value="{{org}}"  disabled="{{isDisabled}}" >
+                    Longitude & Latitude <input class="form-control" type="text" name="loc" ng-model="loc" value="{{loc}}"  disabled="{{isDisabled}}" >
+                    Country <input class="form-control" type="text" name="country" ng-model="country" value="{{country}}"  disabled="{{isDisabled}}" >
+                </form>
+            </div>
+
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+
+                <img class="img-responsive" src="app/views/img/location.jpg" alt="MAP HERE">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- /.container -->
+
+</div>
+<!-- /.content-section-a -->
+
+<div class="content-section-b ">
+
+    <div class="container ">
+
+        <div class="row stylish-panel">
+            <div class="col-md-4">
+                <div class="style-text">
+                    <img class="img-circle img-thumbnail  " src="app/views/img/java-duke.png"/>
+                    <h2 class="style-text"> Java Developer</h2>
+                    <p class="round-div style-text">
+                        A java based Spares Tracking System that monitors a company's fleet,
+                        it is used to track individual vehicle spares consumption
+                        and generates various reports.
+                    </p>
+                    <a href="javaworks" class="btn btn-primary" title="See more">See works »</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="style-text">
+                    <img class=" img-circle img-thumbnail  " src="app/views/img/andy.jpg"/>
+                    <h2 class="style-text"> Android Developer </h2>
+                    <p class="round-div style-text">
+                        Android app to get the details of devices that have visited this site .
+                        The details will be used as a hit counter , visitors log and maybe in future
+                        for  <em>ip </em>based content.
+
+                    </p>
+                    <a href="/android" class="btn btn-primary" title="See more">See app »</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="style-text">
+                    <img class=" img-circle img-thumbnail  " src="app/views/img/html5.jpg"/>
+                    <h2 class="style-text"> Web  Developer</h2>
+                    <p class="round-div style-text">
+                        This site is a full MEAN (Mongodb Express Angular Node ) Stack Web App that
+                        gets details of every devices that has visited . Bootstrap is also applied for
+                        device consistency.
+                    </p>
+                    <a href="/" class="btn btn-primary" title="See more">Welcome »</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</div>
+
+
+</div>
+<!-- /.banner -->
